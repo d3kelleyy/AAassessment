@@ -1,3 +1,57 @@
+/* Card CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 344px;
+  border: 2px solid black;
+}
+
+.card-img {
+  height: 194px;
+  width: 100%;
+}
+
+.container {
+  margin: 5px;
+}
+
+.card-header {
+  margin: 5px;
+  width: 100%;
+}
+
+.avatar {
+  width: 40px;
+  padding: 10px 6px 0px;
+}
+
+.card-title {
+  display: inline-block;
+}
+
+.card-title h3 {
+  color: #000;
+  font-size: 22px;
+}
+
+.card-title p {
+  color: #232f34;
+}
+
+.card-body {
+  margin-top: 5px;
+  padding: 10px 5px;
+  color: #232f34;
+  font-size: 12px;
+}
+
 fieldset {
     border: 0;
 }
